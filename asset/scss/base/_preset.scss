@@ -1,0 +1,25 @@
+body{
+    color:#222;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    font-family: $font-kr;  
+}
+
+.wrapper{
+    min-width: 1246px;
+
+}
+
+.inner{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.blind{
+ position: absolute;
+ width: 1px; height: 1px;   
+ overflow: hidden;
+ clip: rect(0 0 0 0);
+ margin: -1px;
+}

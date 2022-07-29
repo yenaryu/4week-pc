@@ -1,0 +1,72 @@
+.btn-nav {position: absolute;
+    top: 50%;
+    width: 24px; height: 39px;
+    transform: translate(-50%, -50%); 
+    .sc-visual &{
+        &.prev {background: url(../images/btnprev_fff.png) no-repeat center;
+             left: 17%;} 
+        &.next {background: url(../images/btnnext_fff.png) no-repeat center;
+             right: 17%;}
+        }
+
+    .group-content &{
+        &.prev {background: url(../images/btnprev_blk.png) no-repeat center;
+              left: -17%;} 
+        &.next {background: url(../images/btnnext_blk.png) no-repeat center;
+              right: -17%;}
+    }
+}
+
+
+
+
+
+.pagination{position: absolute;
+    display: flex;
+    transform: translateX(-50%);
+    bottom: 0; left: 50%;
+    gap:11px;
+    .bullet{
+        border-radius: 50%;
+        width: 13px;
+        height: 13px;
+        
+        .sc-visual &{
+            margin-bottom: 33px;
+            border: 2px solid #fff;
+            &.active{background: #fff;}
+            
+        }
+        .group-content &{
+            border: 2px solid #ddd;
+            &.active{background: #ddd;}
+
+        }
+}
+}
+
+
+
+
+
+.link-detail{
+    display: block;
+    width: 190px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #222;
+    text-align: center;
+    line-height: 46px;
+
+    .sc-recommend &{ 
+        color: #fff;
+        border-color: #fff;
+        margin-left: 20px;
+    }
+
+    .sc-event &{
+        margin-bottom: 50px;
+    }
+
+}
+
